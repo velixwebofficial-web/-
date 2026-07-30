@@ -1,3 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" role="img" aria-label="بذارة زراعية">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#001838"/><stop offset="1" stop-color="#0b2e5c"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-opacity=".16"/></filter></defs>
-<rect width="800" height="540" rx="42" fill="#f2f5fa"/><path d="M150 245h430v110H150z" fill="#001838"/><path d="M190 205h350v55H190z" fill="#ff2a2d"/><path d="M210 355v70m100-70v70m100-70v70m100-70v70" stroke="#001838" stroke-width="18"/><circle cx="185" cy="385" r="48" fill="#001838"/><circle cx="545" cy="385" r="48" fill="#001838"/><circle cx="185" cy="385" r="20" fill="#fff"/><circle cx="545" cy="385" r="20" fill="#fff"/></svg>
