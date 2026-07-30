@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" role="img" aria-label="جرار زراعي مع محراث في حقل">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#dce9f5"/><stop offset=".58" stop-color="#f8fbfd"/><stop offset="1" stop-color="#d7c1a8"/></linearGradient>
+    <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#81614b"/><stop offset="1" stop-color="#2d211a"/></linearGradient>
+    <linearGradient id="tractor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b2736"/><stop offset="1" stop-color="#05090e"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c9e9fa" stop-opacity=".92"/><stop offset="1" stop-color="#587a93" stop-opacity=".76"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dce3e8"/><stop offset=".5" stop-color="#7e8a94"/><stop offset="1" stop-color="#edf2f5"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000" flood-opacity=".24"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <rect width="1600" height="650" fill="url(#sky)"/>
+  <g opacity=".42" filter="url(#soft)"><ellipse cx="260" cy="123" rx="240" ry="40" fill="#fff"/><ellipse cx="1040" cy="96" rx="260" ry="45" fill="#fff"/></g>
+  <path d="M0 365C260 315 515 329 760 350c330 28 566-22 840-13v313H0Z" fill="url(#soil)"/>
+  <g opacity=".38" stroke="#b18d6b" stroke-width="11" fill="none">
+    <path d="M-40 652C130 532 280 470 454 410"/><path d="M140 662C285 545 420 482 592 418"/><path d="M340 662C474 553 605 489 760 424"/><path d="M560 660C700 547 822 492 948 435"/><path d="M820 660C936 557 1044 506 1155 450"/><path d="M1070 660C1173 565 1270 519 1370 470"/><path d="M1320 660C1406 586 1490 548 1580 510"/>
+  </g>
+  <g transform="translate(40 190)" filter="url(#shadow)">
+    <ellipse cx="302" cy="342" rx="255" ry="36" fill="#000" opacity=".22"/>
+    <circle cx="210" cy="305" r="112" fill="#121820"/><circle cx="210" cy="305" r="79" fill="#2d3742"/><circle cx="210" cy="305" r="46" fill="#111820"/><circle cx="210" cy="305" r="24" fill="#d1d6da"/>
+    <circle cx="495" cy="320" r="78" fill="#121820"/><circle cx="495" cy="320" r="52" fill="#2d3742"/><circle cx="495" cy="320" r="23" fill="#d1d6da"/>
+    <path d="M130 142h335l83 76v86H108v-98Z" fill="url(#tractor)"/>
+    <path d="M180 26h205l62 120H154Z" fill="#0c141e"/>
+    <path d="M199 48h75v94h-95Z" fill="url(#glass)"/><path d="M290 48h75l45 94H290Z" fill="url(#glass)"/>
+    <path d="M171 25h225l66 125" fill="none" stroke="#111a25" stroke-width="18" stroke-linejoin="round"/>
+    <path d="M445 177h92v58h-92Z" fill="#ff2a2d"/><rect x="120" y="172" width="78" height="53" rx="10" fill="#ff2a2d"/>
+    <rect x="515" y="213" width="56" height="28" rx="9" fill="#f6c748"/>
+    <path d="M235 17v-54" stroke="#151d26" stroke-width="14" stroke-linecap="round"/><path d="M235-37h26" stroke="#151d26" stroke-width="12" stroke-linecap="round"/>
+    <path d="M548 254h80" stroke="#222c35" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(610 315)" filter="url(#shadow)">
+    <path d="M0 45h690" stroke="#1a2028" stroke-width="18" stroke-linecap="round"/>
+    <path d="M50 43v-72h600v72" fill="none" stroke="#ff2a2d" stroke-width="14" stroke-linejoin="round"/>
+    <g fill="url(#metal)" stroke="#616c75" stroke-width="5">
+      <path d="M70-20q65 40 73 126-71-11-112-76Z"/><path d="M185-20q65 40 73 126-71-11-112-76Z"/><path d="M300-20q65 40 73 126-71-11-112-76Z"/><path d="M415-20q65 40 73 126-71-11-112-76Z"/><path d="M530-20q65 40 73 126-71-11-112-76Z"/>
+    </g>
+    <circle cx="668" cy="67" r="42" fill="#121820"/><circle cx="668" cy="67" r="18" fill="#d9dde0"/>
+  </g>
+  <rect width="1600" height="650" fill="url(#overlay)" opacity="0"/>
+</svg>
